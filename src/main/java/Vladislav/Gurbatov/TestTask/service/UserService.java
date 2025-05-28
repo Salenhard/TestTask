@@ -16,5 +16,6 @@ public interface UserService {
 
     public Page<User> getAll(Pageable pageable);
 
+    public User update(Integer id, User user);
 
 }
