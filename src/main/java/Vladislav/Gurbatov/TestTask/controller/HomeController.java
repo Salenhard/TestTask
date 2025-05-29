@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 @RequiredArgsConstructor
 @RequestMapping("/")
-public class TelegramController {
+public class HomeController {
     @GetMapping
     public ModelAndView index(Model model) {
         ModelAndView modelAndView = new ModelAndView("/main/index");
